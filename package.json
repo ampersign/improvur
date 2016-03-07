@@ -1,0 +1,21 @@
+{
+  "title": "Improvur",
+  "name": "improvur",
+  "version": "1.0.3",
+  "description": "Rewrites Imgur links to point directly at the target image file.",
+  "main": "index.js",
+  "author": "Shaun Cummiskey",
+  "homepage": "http://github.com/ampersign/improvur/",
+  "permissions": {
+      "private-browsing": true
+  },
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "improvur",
+    "imgur",
+    "rewrite"
+  ]
+}

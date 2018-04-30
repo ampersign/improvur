@@ -5,7 +5,7 @@
   "description": "Rewrites Imgur links to point directly at the target image file.",
   "main": "index.js",
   "author": "Shaun Cummiskey",
-  "homepage": "http://github.com/ampersign/improvur/",
+  "homepage": "https://github.com/parseword/improvur/",
   "permissions": {
       "private-browsing": true
   },

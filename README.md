@@ -10,8 +10,4 @@ Links are rewritten to use a .jpg extension regardless of the actual image type.
 
 ### TODO / Known issues
 
-* When a rewritten link points to an animated GIF, the larger .gif version will be loaded instead of the slimmer .gifv. A future version of Improvur may attempt to sniff the MIME type and handle these better.
-
-### Bug reporting
-
-To report a bug, please visit the <a href="http://improvur.reddit.com/">Improvur subreddit</a>.
+* Improvur works with Firefox versions up to 56. Unfortunately, Mozilla has rendered many extensions obsolete by moving to WebExtensions. I may look at converting Improvur in the future, but it's not a priority.

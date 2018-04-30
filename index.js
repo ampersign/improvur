@@ -3,7 +3,7 @@ var pageMod = require("sdk/page-mod");
 
 pageMod.PageMod({
     include: ["*"],
-    //Don't rewrite links on imgur.com itself, otherwise stuff like http://imgur.com/random breaks
+    //Don't rewrite links on imgur.com itself, otherwise links like http://imgur.com/random will break
     exclude: /.*imgur\.com.*/,
     attachTo: ["existing", "top", "frame"],
     contentScriptWhen: "ready",
